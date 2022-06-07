@@ -111,37 +111,53 @@ header nav {
     margin-bottom: 2%;
     border: 3px solid black;
     background-color: white;
+    background-size: cover;
     
   }
 
   .flexbox-item1{
     min-height: 300px;
     min-width: 600px;
+    background-image: url(../portfolio/assets/images/hero-bg.jpg);
+
     
   }
+
 
   .flexbox-item2 {
     min-height: 100px;
     min-width: 600px;
+    background-image: url(../portfolio/assets/images/horiseon.jpg);
+    background-size: contain;
 
   }
 
   .flexbox-item3 {
     min-height: 100px;
     min-width: 600px;
+    background-image: url(../portfolio/assets/images/ledwall.jpg);
+    background-size: auto;
   }
 
   .flexbox-item4 {
     min-height: 100px;
     min-width: 600px;
-    
+    background-image: url(../portfolio/assets/images/calculator.jpg);
+    background-size: auto;
   }
 
   .flexbox-item5 {
     min-height: 100px;
     min-width: 600px;
+    background-image: url(../portfolio/assets/images/surf\ report.jpg);
+    background-size: auto;
   }
 
+  .flexbox-container h2 {
+    position:absolute;
+    background-color: salmon;
+    border: 3px solid black;
+  }
 /* Bottom right text */
 .text-block {
   position: absolute;
