@@ -158,6 +158,13 @@ header nav {
     background-color: salmon;
     border: 3px solid black;
   }
+
+  .flexbox-item:hover {
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+  }
 /* Bottom right text */
 .text-block {
   position: absolute;
