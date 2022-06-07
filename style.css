@@ -6,7 +6,9 @@
 body {
     color:black;
     font-family: Helvetica, Arial, sans-serif;
-    background-color: rgb(183, 182, 182)
+    background-color: rgb(183, 182, 182);
+    max-width:  100%;
+    overflow-x: hidden;
   }
 
 
@@ -51,23 +53,94 @@ header nav {
     font-size: 22px;
   }
 
-  h2{
-    display: inline;
+  h2 {
+    position: relative;
     color: maroon;
     font-size: 30px;
     margin: 0;
   }
 
-  .aboutme h2{
-    border: 10px maroon;
+  h2.aboutme {
+    left: 115px;
   }
 
   p {
-    text-align: left;
-    margin: auto;
+    position: relative;
+    text-align: right;
     width: 500px;
+    font-size: 20px;
+    left: 700px;
+    bottom: 70px;
   }
 
+  .vl {
+    border-left: 6px solid maroon;
+    height: 100px;
+    position: absolute;
+    left: 19%;
+    margin-left: -3px;
+    top: 141px;
+  }
+
+  .v2 {
+    border-left: 6px solid maroon;
+    height: 883px;
+    position: absolute;
+    left: 19%;
+    margin-left: -3px;
+    top: 302px;
+  }
+
+/* Work Section */
+
+  h2.work {
+    left: 115px;
+  }
+
+  .flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+    
+  }
+
+  .flexbox-item {
+    width: 200px;
+    margin-bottom: 2%;
+    border: 3px solid black;
+    background-color: white;
+    
+  }
+
+  .flexbox-item1{
+    min-height: 300px;
+    min-width: 600px;
+    
+  }
+
+  .flexbox-item2 {
+    min-height: 100px;
+    min-width: 600px;
+
+  }
+
+  .flexbox-item3 {
+    min-height: 100px;
+    min-width: 600px;
+  }
+
+  .flexbox-item4 {
+    min-height: 100px;
+    min-width: 600px;
+    
+  }
+
+  .flexbox-item5 {
+    min-height: 100px;
+    min-width: 600px;
+  }
 
 /* Bottom right text */
 .text-block {
