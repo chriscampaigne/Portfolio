@@ -129,8 +129,10 @@ header nav {
     min-width: 600px;
     background-image: url(../portfolio/assets/images/horiseon.jpg);
     background-size: contain;
+ }
 
-  }
+
+
 
   .flexbox-item3 {
     min-height: 100px;
@@ -210,3 +212,21 @@ header nav {
     background-size: cover;
     background-position: center;
   }
+
+  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  
+}
+
+  
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+}
+
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+  
+ 
+  
+}
