@@ -119,7 +119,7 @@ header nav {
     min-height: 300px;
     min-width: 600px;
     background-image: url(../portfolio/assets/images/hero-bg.jpg);
-
+    
     
   }
 
@@ -215,7 +215,7 @@ header nav {
 
   /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
-  
+
 }
 
   
