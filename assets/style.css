@@ -118,7 +118,7 @@ header nav {
   .flexbox-item1{
     min-height: 300px;
     min-width: 600px;
-    background-image: url(../portfolio/assets/images/hero-bg.JPG);
+    background-image: url(../portfolio/assets/images/hero-bg.jpg);
     
     
   }
@@ -127,7 +127,7 @@ header nav {
   .flexbox-item2 {
     min-height: 100px;
     min-width: 600px;
-    background-image: url(../portfolio/assets/images/horiseon.JPG);
+    background-image: url(../portfolio/assets/images/horiseon.jpg);
     background-size: contain;
  }
 
@@ -137,21 +137,21 @@ header nav {
   .flexbox-item3 {
     min-height: 100px;
     min-width: 600px;
-    background-image: url(../portfolio/assets/images/ledwall.JPG);
+    background-image: url(../portfolio/assets/images/ledwall.jpg);
     background-size: auto;
   }
 
   .flexbox-item4 {
     min-height: 100px;
     min-width: 600px;
-    background-image: url(../portfolio/assets/images/calculator.JPG);
+    background-image: url(../portfolio/assets/images/calculator.jpg);
     background-size: auto;
   }
 
   .flexbox-item5 {
     min-height: 100px;
     min-width: 600px;
-    background-image: url(../portfolio/assets/images/surf\ report.JPG);
+    background-image: url(../portfolio/assets/images/surf\ report.jpg);
     background-size: auto;
   }
 
@@ -208,7 +208,7 @@ header nav {
 
   .hero {
     padding: 50px;
-    background-image: url(../portfolio/assets/images/martin-adams-707980-unsplash_\(3\).JPG);
+    background-image: url(../portfolio/assets/images/martin-adams-707980-unsplash_\(3\).jpg);
     background-size: cover;
     background-position: center;
   }
